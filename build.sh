@@ -8,5 +8,5 @@ docker build -f ${PWD}/${PHP_VERSION}.Dockerfile -t vapor-${PHP_VERSION}:latest 
 docker tag vapor-${PHP_VERSION}:latest laravelphp/vapor:${PHP_VERSION}
 
 if [ -n "$PUBLISH" ]; then
-  docker push bradidr/idr-vapor:${PHP_VERSION}
+  docker push bradidr/vapor:${PHP_VERSION}
 fi
