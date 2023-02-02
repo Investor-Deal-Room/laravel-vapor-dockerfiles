@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 php:8.0-fpm-alpine
+FROM --platform=linux/amd64 phpswoole/swoole:php8.0-alpine
 
 RUN apk --update add \
   wget \
